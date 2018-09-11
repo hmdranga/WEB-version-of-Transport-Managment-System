@@ -1,0 +1,18 @@
+.recycle{
+    text-align: center;
+}
+
+#tblSalary tbody tr{
+    cursor: pointer;
+}
+
+#tblSalary tbody{
+    background-color: white;
+}
+
+.recycle:hover{
+    color: red;
+}
+/*#btnAddNew{*/
+    /*float: right;*/
+/*}*/

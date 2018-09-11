@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55deff48-a131-4767-b9c9-8c4aaa7b6f11" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-659806592">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="7" />
+          <entry key="js" value="7" />
+          <entry key="php" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="7" />
+          <entry key="JavaScript" value="7" />
+          <entry key="PHP" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="107" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="107" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/js/controller/manage-salary-conntroller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-737">
+              <caret line="210" selection-start-line="210" selection-end-line="210" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/js/controller/manage-trips-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2335">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="118" column="56" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/js/controller/manage-vehicles-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-278">
+              <caret line="86" column="32" lean-forward="true" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/drivers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/vehicle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/expenceTypes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/expense.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="70" column="72" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/salaries.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="47" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/trips.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pos</find>
+      <find>us</find>
+      <find>cus</find>
+      <find>cu</find>
+      <find>id</find>
+      <find>nav</find>
+      <find>sidebar</find>
+      <find>vehi</find>
+      <find>$nic</find>
+      <find>dr</find>
+      <find>btn</find>
+      <find>form</find>
+      <find>disa</find>
+      <find>getTotalKm</find>
+      <find>countKm</find>
+      <find>save</find>
+      <find>tblkm</find>
+      <find>as</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\WEB Transport Mgt System</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api/business/TripBO.php" />
+        <option value="$PROJECT_DIR$/api/repository/TripRepository.php" />
+        <option value="$PROJECT_DIR$/api/business/impl/TripBOImpl.php" />
+        <option value="$PROJECT_DIR$/api/trips.php" />
+        <option value="$PROJECT_DIR$/api/repository/ExpenceTypeRepository.php" />
+        <option value="$PROJECT_DIR$/api/business/ExpenceTypeBO.php" />
+        <option value="$PROJECT_DIR$/api/repository/impl/ExpenceTypeRepositoryImpl.php" />
+        <option value="$PROJECT_DIR$/api/business/impl/ExpenceTypeBOImpl.php" />
+        <option value="$PROJECT_DIR$/api/expenceTypes.php" />
+        <option value="$PROJECT_DIR$/api/repository/impl/ExpenseRepositoryImpl.php" />
+        <option value="$PROJECT_DIR$/api/salaries.php" />
+        <option value="$PROJECT_DIR$/manage-trips.html" />
+        <option value="$PROJECT_DIR$/dist/js/controller/manage-trips-controller.js" />
+        <option value="$PROJECT_DIR$/api/repository/TripRepository.php" />
+        <option value="$PROJECT_DIR$/api/business/TripBO.php" />
+        <option value="$PROJECT_DIR$/api/business/impl/TripBOImpl.php" />
+        <option value="$PROJECT_DIR$/api/trips.php" />
+        <option value="$PROJECT_DIR$/api/salaries.php" />
+        <option value="$PROJECT_DIR$/dist/js/controller/manage-salary-conntroller.js" />
+        <option value="$PROJECT_DIR$/manage-salaries.html" />
+        <option value="$PROJECT_DIR$/api/repository/impl/TripRepositoryImpl.php" />
+        <option value="$PROJECT_DIR$/api/business/impl/SalaryBOImpl.php" />
+        <option value="$PROJECT_DIR$/api/business/impl/TripBOImpl.php" />
+        <option value="$PROJECT_DIR$/api/business/TripBO.php" />
+        <option value="$PROJECT_DIR$/api/repository/TripRepository.php" />
+        <option value="$PROJECT_DIR$/dist/js/controller/manage-expense-controller.js" />
+        <option value="$PROJECT_DIR$/manage-salaries.html" />
+        <option value="$PROJECT_DIR$/dist/js/controller/manage-salary-conntroller.js" />
+        <option value="$PROJECT_DIR$/api/trips.php" />
+        <option value="$PROJECT_DIR$/api/salaries.php" />
+        <option value="$PROJECT_DIR$/api/repository/impl/TripRepositoryImpl.php" />
+        <option value="$PROJECT_DIR$/api/repository/impl/TripRepositoryImpl.php" />
+        <option value="$PROJECT_DIR$/api/salaries.php" />
+        <option value="$PROJECT_DIR$/api/salaries.php" />
+        <option value="$PROJECT_DIR$/dist/js/controller/manage-salary-conntroller.js" />
+        <option value="$PROJECT_DIR$/api/salaries.php" />
+        <option value="$PROJECT_DIR$/api/db/DBConnection.php" />
+        <option value="$PROJECT_DIR$/api/db/DBConnection.php" />
+        <option value="$PROJECT_DIR$/api/salaries.php" />
+        <option value="$PROJECT_DIR$/dist/js/controller/manage-salary-conntroller.js" />
+        <option value="$PROJECT_DIR$/api/salaries.php" />
+        <option value="$PROJECT_DIR$/dist/js/controller/manage-salary-conntroller.js" />
+        <option value="$PROJECT_DIR$/api/salaries.php" />
+        <option value="$PROJECT_DIR$/dist/js/controller/manage-salary-conntroller.js" />
+        <option value="$PROJECT_DIR$/api/salaries.php" />
+        <option value="$PROJECT_DIR$/dist/js/controller/manage-salary-conntroller.js" />
+        <option value="$PROJECT_DIR$/api/salaries.php" />
+        <option value="$PROJECT_DIR$/dist/js/controller/manage-salary-conntroller.js" />
+        <option value="$PROJECT_DIR$/dist/js/controller/manage-salary-conntroller.js" />
+        <option value="$PROJECT_DIR$/dist/js/controller/manage-salary-conntroller.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="c6e13549-2efa-46b7-8ec8-a33d7f53d02a" name="Apache Web Server" />
+    </servers>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WEB Transport Mgt System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB Transport Mgt System" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEB Transport Mgt System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB Transport Mgt System" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEB Transport Mgt System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEB Transport Mgt System" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536629043955" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WEB Transport Mgt System\api" />
+      <recent name="D:\WEB Transport Mgt System\api\repository" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Web Page.TransportMgt">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WEB Transport Mgt System/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="manage-salaries.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WEB Transport Mgt System/manage-salaries.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="TransportMgt" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" activateToolWindowBeforeRun="false" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Apache Web Server" start_url="/TransportMgtSys">
+      <method v="2">
+        <option name="FtpUpload" enabled="true">
+          <server_id>402e9163-905f-4f74-90b3-48eddebdba71</server_id>
+          <server_name>Apache Web Server</server_name>
+          <path>D:\WEB Transport Mgt System</path>
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="PHP Web Page.TransportMgt" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.manage-salaries.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.manage-salaries.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55deff48-a131-4767-b9c9-8c4aaa7b6f11" name="Default" comment="" />
+      <created>1532324239019</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532324239019</updated>
+      <workItem from="1532324243938" duration="25210000" />
+      <workItem from="1532382261722" duration="13776000" />
+      <workItem from="1532406796748" duration="8870000" />
+      <workItem from="1532421402269" duration="3322000" />
+      <workItem from="1532424793506" duration="18964000" />
+      <workItem from="1532472689777" duration="10586000" />
+      <workItem from="1532514958735" duration="13868000" />
+      <workItem from="1532555881968" duration="12826000" />
+      <workItem from="1532578739243" duration="19097000" />
+      <workItem from="1532606054399" duration="8273000" />
+      <workItem from="1532658534740" duration="14727000" />
+      <workItem from="1532747880562" duration="25418000" />
+      <workItem from="1532783090871" duration="13693000" />
+      <workItem from="1532818949453" duration="31840000" />
+      <workItem from="1532902642927" duration="12697000" />
+      <workItem from="1532920510328" duration="23328000" />
+      <workItem from="1532959871774" duration="3826000" />
+      <workItem from="1532963956132" duration="1525000" />
+      <workItem from="1532965859734" duration="14468000" />
+      <workItem from="1532997283439" duration="1664000" />
+      <workItem from="1533007936717" duration="5778000" />
+      <workItem from="1533025461941" duration="8083000" />
+      <workItem from="1533043346904" duration="14744000" />
+      <workItem from="1533094541470" duration="842000" />
+      <workItem from="1533101183751" duration="491000" />
+      <workItem from="1533105190596" duration="1781000" />
+      <workItem from="1533107076847" duration="1775000" />
+      <workItem from="1533109312941" duration="658000" />
+      <workItem from="1533111916539" duration="594000" />
+      <workItem from="1533115868965" duration="1906000" />
+      <workItem from="1533124394837" duration="1708000" />
+      <workItem from="1533129591371" duration="846000" />
+      <workItem from="1533130482077" duration="1776000" />
+      <workItem from="1533132946238" duration="539000" />
+      <workItem from="1533141702966" duration="687000" />
+      <workItem from="1533148151725" duration="1640000" />
+      <workItem from="1533187608428" duration="133000" />
+      <workItem from="1533193083364" duration="630000" />
+      <workItem from="1533196989122" duration="1197000" />
+      <workItem from="1533199096789" duration="703000" />
+      <workItem from="1533200987742" duration="975000" />
+      <workItem from="1533202803536" duration="595000" />
+      <workItem from="1533204835917" duration="832000" />
+      <workItem from="1533207485242" duration="707000" />
+      <workItem from="1533210846976" duration="1755000" />
+      <workItem from="1533212659537" duration="1782000" />
+      <workItem from="1533214497122" duration="619000" />
+      <workItem from="1533219270654" duration="1714000" />
+      <workItem from="1533221038077" duration="1759000" />
+      <workItem from="1533222845412" duration="1985000" />
+      <workItem from="1533244281286" duration="1796000" />
+      <workItem from="1533285209032" duration="603000" />
+      <workItem from="1533358297148" duration="98000" />
+      <workItem from="1534900626847" duration="1635000" />
+      <workItem from="1534912001583" duration="59000" />
+      <workItem from="1535005969011" duration="600000" />
+      <workItem from="1535086978416" duration="502000" />
+      <workItem from="1536377401400" duration="113000" />
+      <workItem from="1536377525271" duration="786000" />
+      <workItem from="1536627634394" duration="1406000" />
+      <workItem from="1536630131575" duration="1140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="345950000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16979866" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4008208" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51073825" side_tool="true" visible="true" weight="0.14164306" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="10" sideWeight="0.48926175" visible="true" weight="0.14164306" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32968536" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3294271" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Remote Host" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url />
+          <line>10</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dist/css/adminlte.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152643">
+          <caret line="8979" column="28" selection-start-line="8979" selection-start-column="28" selection-end-line="8979" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/manage-vehicles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/manage-drivers.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/repository/impl/DriverRepositoryImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/manage-expenses.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-vehicles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="53" selection-start-line="88" selection-start-column="53" selection-end-line="88" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/repository/VehicleRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/repository/DriverRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/manage-salaries.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/repository/impl/VehicleRepositoryImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/repository/impl/ExpenceTypeRepositoryImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/repository/ExpenseRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-trips.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="145" column="96" selection-start-line="145" selection-start-column="96" selection-end-line="145" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/business/impl/ExpenseBOImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/repository/ExpenceTypeRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/repository/impl/ExpenseRepositoryImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/repository/impl/SalaryRepositoryImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/manage-trips.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/controller/manage-expense-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-835">
+          <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/business/impl/TripBOImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/repository/impl/TripRepositoryImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="81" selection-start-line="51" selection-start-column="76" selection-end-line="51" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/business/impl/SalaryBOImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/business/impl/VehicleBOImpl.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/business/impl/DriverBOImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/business/impl/ExpenceTypeBOImpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="62" column="81" selection-start-line="62" selection-start-column="81" selection-end-line="62" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/repository/SalaryRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/db/DBConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/repository/TripRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-salaries.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="126" column="41" lean-forward="true" selection-start-line="151" selection-start-column="79" selection-end-line="151" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-expenses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="164" column="94" selection-start-line="164" selection-start-column="85" selection-end-line="164" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/business/TripBO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/business/VehicleBO.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/business/SalaryBO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/business/ExpenseBO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/business/ExpenceTypeBO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/business/DriverBO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage-drivers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/controller/dashboard-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/controller/manage-drivers-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-958">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/controller/manage-expence-type-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/controller/manage-salary-conntroller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-737">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/controller/manage-trips-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2335">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/controller/manage-vehicles-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="86" column="32" lean-forward="true" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/drivers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/expenceTypes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/expense.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="70" column="72" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/salaries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="47" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/trips.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/vehicle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="118" column="56" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

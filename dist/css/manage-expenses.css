@@ -1,0 +1,23 @@
+.recycle{
+    text-align: center;
+}
+
+#tblExpenceType tbody tr{
+    cursor: pointer;
+}
+
+#tblExpenceType tbody{
+    background-color: white;
+}
+
+.recycle:hover{
+    color: red;
+}
+#btnAddNew{
+    float: right;
+}
+
+#lblExpenceType{
+    float: right;
+}
+

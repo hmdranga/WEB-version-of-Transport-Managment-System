@@ -1,0 +1,18 @@
+.recycle{
+    text-align: center;
+}
+
+#tblDriver tbody tr{
+    cursor: pointer;
+}
+
+#tblDriver tbody{
+    background-color: white;
+}
+
+.recycle:hover{
+    color: red;
+}
+#btnAddNew{
+    float: right;
+}

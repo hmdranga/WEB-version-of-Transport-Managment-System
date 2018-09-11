@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Transport Management System | Trip</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="dist/css/font-awesome.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <!--style sheet for body-->
+    <link rel="stylesheet" href="dist/css/manage-trips.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+
+    <!-- Navbar -->
+    <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
+            </li>
+        </ul>
+
+    </nav>
+    <!-- /.navbar -->
+
+    <!-- Main Sidebar Container -->
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <!-- Brand Logo -->
+        <a href="#" class="brand-link text-center">
+            <span class="brand-text font-weight-light">Transport Management <br> System</span>
+        </a>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+
+            <!-- Sidebar Menu -->
+            <nav class="mt-2">
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                    data-accordion="false">
+                    <!-- Add icons to the links using the .nav-icon class
+                         with font-awesome or any other icon font library -->
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link ">
+                            <i class="nav-icon fa fa-dashboard"></i>
+                            <p>
+                                Dashboard
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="manage-vehicles.html" class="nav-link ">
+                            <i class="nav-icon fa fa-truck"></i>
+                            <p>
+                                Vehicle
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="manage-drivers.html" class="nav-link ">
+                            <i class="nav-icon fa fa-drivers-license"></i>
+                            <p>
+                                Driver
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="manage-trips.html" class="nav-link active">
+                            <i class="nav-icon fa fa-clock-o"></i>
+                            <p>
+                                Trip
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="manage-expenses.html" class="nav-link">
+                            <i class="nav-icon fa fa-cogs"></i>
+                            <p>
+                                Vehicle Expenses
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="manage-salaries.html" class="nav-link">
+                            <i class="nav-icon fa fa-money"></i>
+                            <p>
+                                Salary
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /.sidebar-menu -->
+        </div>
+        <!-- /.sidebar -->
+    </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <h1 class="m-0 text-dark">Trip</h1>
+                    </div><!-- /.col -->
+                    <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active">Trip</li>
+                        </ol>
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
+        </div>
+        <!-- /.content-header -->
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col col-12 ">
+                    <form id="tripForm">
+                        <!--form-->
+                        <div class="row">
+
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col col-12 col-md-4">
+                                        <div class="row">
+                                            <div class="col col-12 col-md-12 col-lg-12">
+                                                <button id="btnAddNewTrip" type="button" class="btn btn-dark" class="form-control">Add New
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <label id="lblTripId">Trip ID:</label><input type="text" name="txtTripID"
+                                                                          id="txtTripID"
+                                                                          placeholder=""
+                                                                          class="form-control " >
+                                        <br>
+                                        <label>Trip Date:</label><input type="date" name="txtTripDate" id="txtTripDate" placeholder="Enter Date" class="form-control">
+                                        <br>
+                                    </div>
+
+                                    <div class="col col-12 col-md-4">
+                                        <label>Driver NIC:</label> <select id="cmbDNIC" name ="cmbDNIC" class="form-control">
+                                        <option value="default">Select Driver NIC</option>
+                                        </select>
+
+                                        <br>
+                                        <label>Driver Name:</label><input type="text" name="txtDName"
+                                                                          id="txtDName"
+                                                                          placeholder="Driver name"
+                                                                          class="form-control" disabled>
+                                        <br>
+                                        <label>Vehicle Registration No:</label><select id="cmbRegNo" name ="cmbRegNo" class="form-control">
+                                        <option value="default">Select Vehicle Registration Number </option>
+                                    </select>
+                                        <br>
+                                    </div>
+
+                                    <div class="col col-12 col-md-4">
+                                        <label>Start Km :</label><input type="text" name="txtStartKm" id="txtStartKm"
+                                                                       placeholder="Enter Start Km Befor Trip"
+                                                                       class="form-control">
+                                        <br>
+                                        <label>End Km :</label><input type="text" name="txtEndKm"
+                                                                          id="txtEndKm"
+                                                                          placeholder="Enter End Km After Trip"
+                                                                          class="form-control">
+                                        <br>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col col-12 col-md-12">
+                                                <button type="button" id="btnSaveTrip" class="btn btn-dark">Save</button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                    <!--form-->
+                    <br>
+                    <div class="row">
+                        <div class="col col-12">
+                            <!--table-->
+                            <table id="tblTrip" class="table table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Date</th>
+                                    <th>Start(Km)</th>
+                                    <th>End(Km)</th>
+                                    <th>Driver</th>
+                                    <th>Vehicle</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                            <!--/table-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+    <footer class="main-footer">
+        <strong>Copyright &copy; 2018 DEP<a href="http://ijse.lk">IJSE</a>.</strong>
+        All rights reserved.
+        <div class="float-right d-none d-sm-inline-block">
+            <b>Version</b> 1.0.0
+        </div>
+    </footer>
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+        <!-- Control sidebar content goes here -->
+    </aside>
+    <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<script src="dist/js/plugins/jquery/jquery.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="dist/js/plugins/jQueryUI/jquery-ui.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="dist/js/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+<!--manage driver controller-->
+<script src="dist/js/controller/manage-trips-controller.js"></script>
+</body>
+</html>
